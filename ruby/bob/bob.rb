@@ -1,6 +1,6 @@
 class Bob
   def hey(remark)
-    if remark.chars.last =='!'
+    if remark.upcase == remark
       "Whoa, chill out!"
     else
       'Whatever.'
