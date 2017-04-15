@@ -2,7 +2,7 @@ class Bob
   def hey(remark)
     if remark.upcase == remark && remark.downcase != remark
       "Whoa, chill out!"
-    elsif remark.chars.last == "?"
+    elsif remark[-1] == "?"
       "Sure."
     elsif remark.strip.empty?
         "Fine. Be that way!"
