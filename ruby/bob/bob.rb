@@ -4,7 +4,7 @@ class Bob
       "Whoa, chill out!"
     elsif remark.chars.last == "?"
       "Sure."
-    elsif remark.empty?
+    elsif remark.strip.empty?
         "Fine. Be that way!"
     else
       'Whatever.'
